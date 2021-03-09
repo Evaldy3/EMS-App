@@ -1,0 +1,136 @@
+body
+{
+   background-image: url(../img/b1.png);
+   background-size:cover;
+
+  
+}
+
+.display-1
+{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+}
+
+.btn
+{
+    border-color:#FDC402 ;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.btn:hover
+{
+    background-color:#FDC402 ;
+    font-family:'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.nav-item:hover
+{
+    font-family:'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.fa-user , .fa-suitcase , .fa-globe
+{
+    color: #FDC402;
+    font-size: 30px;
+    margin-bottom: 5px;
+    
+}
+
+
+ #cd1a, #cd1b,#cd1c
+{
+    box-shadow: 10px 10px 15px #FDC402;
+    font-family: 'Assistant', sans-serif;
+    
+}
+
+.card-body
+{
+  text-align: center;  
+
+}
+
+@media screen and (max-width:768px)
+{
+    .card
+    {
+        margin-top: 15px;
+        
+    }
+}
+
+.row, #row2
+{
+    margin-top: 210px;
+    
+}
+
+
+@media screen and (max-width:768px)
+{
+    .row, #row2
+{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    
+}
+
+}
+
+h6, .card-title
+{
+    font-size: 20px;
+}
+
+#cd1
+{
+    background: linear-gradient(145deg,#16a085,#f4d03f);
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+#cd2
+{
+    background: linear-gradient(145deg,#ff6e7f,#bfe9ff);
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+#cd3
+{
+    background: linear-gradient(145deg,#77A1D3,#79CBCA,#e684ae);
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+#cd4
+{
+    background: linear-gradient(345deg,#2b5876,#4e4376);
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+#row3, #row4
+{
+    margin-bottom: 15px;
+}
+
+#cd2a, #cd2b,#cd2c
+{
+    box-shadow: 3px 3px 5px #1053FF;
+    font-family: 'Assistant', sans-serif;
+    
+}
+
+#row4
+{
+    box-shadow: 3px 3px 5px #57606f;
+    font-family: 'Assistant', sans-serif; 
+}

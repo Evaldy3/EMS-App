@@ -1,0 +1,64 @@
+
+
+.leftside, .rightside 
+{
+  height: 50vh;
+  width: 100%;
+}
+
+@media screen and (min-width:768px)
+{
+    .leftside,  .rightside
+    {
+        height: 100vh;
+    }
+}
+
+.leftside
+{
+    background-color: #1053FF;
+}
+
+.rightside
+{
+    background-color: #FDC402;
+}
+
+#card
+{
+    box-shadow: 20px 20px 45px #1053FF;
+    font-family: 'Assistant', sans-serif;
+    border-radius: 15px;
+}
+
+
+ .card-title
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+#typo
+{
+ font-family: 'Fredoka One', cursive;
+ color:#FFFFFF;
+
+}
+
+.navbar-brand
+{
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+
+a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FFFFFF;
+    
+}
